@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace AdoNetCorePractica.Models
 {
-    public class Empleados
+    public class Departamentos
     {
-        public string Apellido { get; set; }
-        public string Especialidad { get; set; }
-        public int Salario { get; set; }
+        public int Id { get; set; }
+        public string Nombre { get; set; }
+        public string Localidad { get; set; }
     }
 }

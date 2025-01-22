@@ -122,7 +122,7 @@ namespace AdoNetCorePractica.Repositories
                 {
                     Apellido = this.reader["APELLIDO"].ToString(),
                     Especialidad = this.reader["ESPECIALIDAD"].ToString(),
-                    Salario = this.reader["SALARIO"].ToString()
+                    Salario = int.Parse(this.reader["SALARIO"].ToString())
                 });
             }
 
